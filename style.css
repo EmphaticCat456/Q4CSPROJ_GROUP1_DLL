@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poetsen One', Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #ff66a3;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.title-logo {
+    display: flex;
+    align-items: center;
+}
+
+.pagetitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.title-logo img {
+    width: 40px;
+    height: auto;
+}
+
+.click a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.banner {
+    background-color: #ffe6f2;
+    padding: 161px;
+    text-align: center;
+    margin: 100px auto;
+    border-radius: 20px;
+    max-width: 900px;
+}
+
+.banner h1 {
+    font-size: 67.49999px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.banner a {
+    color: #ff66a3;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: 2px solid #ff66a3;
+}
+
+.card {
+    background-color: #ff99cc;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 15px;
+    max-width: 600px;
+    text-align: center;
+    color: #000;
+}
+
+.card p {
+    font-size: 20px;
+}
+
+footer {
+    background-color: #ff66a3;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.icon {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.icon::before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#soundcloud::before {
+    background-image: url('images/soundcloud-icon.png');
+    background-size: cover;
+}
+
+#fb::before {
+    background-image: url('images/facebook-icon.png');
+    background-size: cover;
+}
+
+#skype::before {
+    background-image: url('images/skype-icon.png');
+    background-size: cover;
+}
+
+#twitter::before {
+    background-image: url('images/twitter-icon.png');
+    background-size: cover;
+}
